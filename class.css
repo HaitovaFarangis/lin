@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+* {
+    font-family: 'Segoe UI', sans-serif, cursive;
+    margin: 0px;
+     font-family: "Cookie", cursive;
+}
+
+.text p,a {
+    color: black;
+}
+
+.text p:hover,a:hover {
+    color: #FF8A00;
+
+}
+
+.magaz span {
+    padding: 5px 20px;
+    background-color: #3FA72F;
+    border: none;
+    color: white;
+    border-radius: 40px;
+    align-self: center;
+
+}
+.nesdelali{
+    display: flex;
+    gap: 15px ;
+    justify-content: center;
+}
+.q{
+
+}
+.
+.text,
+.magaz {
+    display: flex;
+    gap: 20px;
+}
+
+.top1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: black;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.home {
+    display: none;
+}
+
+.imgs {
+    width: 50%;
+}
+
+.brown {
+    color: #5C4529;
+    font-size: 20px;
+}
+
+.or {
+    color: #FF8A00;
+}
+
+.dark {
+    color: #311F09;
+}
+
+.c {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.tex {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 40%;
+}
+
+.top2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ord {
+    margin-left: 30px;
+}
+
+.povar img {
+    width: 35%;
+}
+
+.names {
+    font-size: 40px;
+}
+
+.index {
+    color: #ffd9ac;
+    font-size: 80px;
+}
+
+.povar {
+    font-family: 'Times New Roman';
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.povar1 {
+    width: 50%;
+}
+
+.povt {
+    color: #5C4529;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: italic;
+}
+
+.i1 {
+    text-align: left;
+}
+
+.i2 {
+    text-align: right;
+}
+
+.end {
+    justify-content: center;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+
+}
+.lit{
+    width: 132px;
+    height: 51px;
+}
+
+.imgss {
+    display: flex;
+    gap: 5px;
+}
+.enda{
+    padding: 20px ;
+    background-color: #311F09;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    color: white;
+}
+.orange{
+    color: #FF8A00;
+    font-size: 25px;
+}
+a{text-decoration: none;}
+.color{
+    width: 90px;
+    height: 90px;
+    background-color: black;
+}
+
+
+@media (max-width:510px) {
+    .text {
+        display: none;
+    }
+
+    .magaz span {
+        display: none;
+    }
+
+    .home {
+
+        width: 30px;
+        height: 30px;
+        display: block;
+        align-self: center;
+        display: flex;
+    }
+
+    .imgs {
+        margin-left: 30px;
+        width: 90%;
+    }
+
+    .top2 {
+        flex-direction: column;
+    }
+
+    .c {
+        display: flex;
+        flex-direction: row;
+        font-size: 40px;
+        display: inline;
+    }
+
+    .tex {
+        width: 95%;
+        text-align: center;
+    }
+
+    .oder1 {
+        margin-top: 50PX;
+        margin-left: 10PX;
+        order: -1;
+    }
+
+    .povar img {
+        width: 95%;
+    }
+
+    .povar1 {
+        width: 95%;
+        text-align: center;
+    }
+
+    .povar {
+        flex-direction: column;
+
+    }
+    .end{
+        display: flex;
+
+        flex-wrap: wrap ;
+        width: 90%;
+    }
+    .enda{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+}
